@@ -1,0 +1,74 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UserSecretsId>76c0d880-9c9c-49c8-a207-d84fe196eed3</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <NoWarn>1501;1502</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\06-senha-provisoria-app-portal.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\Pix\confirmation-email.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\pj-fluxo-normal\01-pre-registro.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\pj-fluxo-normal\02-1-pj-account-analyze.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\pj-fluxo-normal\02-account-analyze.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\pj-fluxo-normal\03-1-pj-conta-aprovada-cadastro-de-senha-sem-cartao.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\pj-fluxo-normal\03-conta-aprovada-cadastro-de-senha-nominal.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\pj-fluxo-normal\04-1-pj-conta-aprovada-cadastro-de-senha-no-name.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\pj-fluxo-normal\04-2-pj-conta-aprovada-cadastro-de-senha.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\pj-fluxo-normal\04-not-approved.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\pj-fluxo-normal\04-pj-conta-aprovada-cadastro-de-senha-nominal.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\pj-fluxo-normal\05-conta-aprovada-sucesso.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\01-1-conta-aprovada-cadastro-de-senha-sem-cartao.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\01-pf-conta-aprovada-cadastro-de-senha-no-name.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\02-3-fluxo-migracao-conta-nao-aprovada.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\02-pf-conta-nao-aprovada.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\03-1-pf-conta-aprovada-cadastro-de-senha-no-name.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\03-1-pf-conta-atualizada-com-sucesso.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\03-2-colaborador-linx-atualizacao-email.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\03-2-pf-conta-aprovada-cadastro-de-senha-sem-cartao.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\03-3-pf-conta-atualizada-com-sucesso.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\03-pf-conta-aprovada-cadastro-de-senha-nominal.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\03-pf-conta-aprovada-com-sucesso.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\04-pf-conta-em-analise.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\05-1-pf-conta-em-analise.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\05-pf-bem-vindo.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pf\05-pf-conta-em-analise.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pj\01-bem-vindo.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pj\02-ativacao.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pj\03-compra-cartao.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pj\04-funcionario-ec-bem-vindo.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pj\06-2-senha-provisoria-portal-gestor.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pj\06-3-senha-provisoria-portal-gestor-ja-tem-senha.html" />
+	  <Content Remove="C:\Users\marco\.nuget\packages\linx.payhub.contalinx.dependences.core\1.0.2.39\contentFiles\any\netcoreapp3.1\Email\Templates\templates-pj\07-gestor-bem-vindo.html" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+		<PackageReference Include="Azure.Storage.Blobs" Version="12.4.4" />
+		<PackageReference Include="Dapper" Version="2.0.35" />
+		<PackageReference Include="Linx.PayHub.ContaLinx.Dependences.Core" Version="1.0.2.39" />
+		<PackageReference Include="Microsoft.ApplicationInsights" Version="2.14.0" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+		<PackageReference Include="NUnit" Version="3.12.0" />
+		<PackageReference Include="Polly" Version="7.2.1" />
+		<PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.14.0" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+		
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\GameLoanManagerCore\GameLoanManagerCore.csproj" />
+	</ItemGroup>
+
+
+</Project>
